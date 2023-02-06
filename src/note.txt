@@ -1,0 +1,29 @@
+lazy loading technique
+----------------------
+
+-module creation
+---------------
+    ng g module modulename
+
+
+-lazy loaded module creation
+     ng g module modulename --route modulename --module rootmodulename
+
+
+install json server 
+   npm i --save json-server
+ npx json-server --watch db.json --port 3000
+  
+    
+
+access data from component path
+--------------------------------
+ActivatedRoute   -class
+params           -method 
+
+
+create pipe --  ng g pipe pipe name
+
+BehaviourSubject in angular
+---------------------------
+rxjs
